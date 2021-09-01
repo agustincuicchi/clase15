@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Rosario Ciudad // Contacto</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="../css/animate.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+	<link rel="stylesheet" href="../css/estilo.css">
+</head>
+<body>
+	
+	<nav class="navbar navbar-expand-lg navbar-light sticky-top" style="background-color: #e3f2fd;">
+		<a class="navbar-brand" href="../index.html"><img src="../assets/logoNav.png" alt="logoNav" width="100" height="auto" class="navLogo"></a> 
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		  <span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNav">
+		  <ul class="navbar-nav">
+			<li class="nav-item">
+			  <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="../pages/galeria.html">Galería</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="../pages/historia.html">Historia</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="../pages/interes.html">Puntos de interés</a>
+			</li>
+			<li class="nav-item active">
+			  <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+			</li>
+		  </ul>
+		</div>
+	  </nav>
+	<header class="wow fadeInUp">
+	<div  class="logo wow fadeInUp">
+		<a href="../index.html"><img src="../assets/logo.jpg" alt="logo"></a>
+	</div>	
+	  <h2>Cuna de la Bandera</h2>
+	   <h3 style="text-align: center;">Contacto</h3>
+	</header>  
+
+	 <section class="formulario">
+	  <fieldset class="fieldset">
+	  	<legend>Información Personal</legend>
+	 	<form action="#">
+	 		<label for="nombre"></label>Nombre:
+	 		 <input type="text" required=""><br>
+	 		<label for="apellido"></label>Apellido:
+	 		 <input type="text" required=""><br>
+	 		<label for="edad"></label>Edad:
+	 		 <input type="number" min="1"><br>
+	 		<label for="email"></label>E-mail:
+	 		 <input type="email"><br>
+	 		 <div>Sexo:
+	 			<div>Masculino
+	 				<input type="radio" name="sexo" value="masculino">
+	 			</div>
+	 			<div>Femenino
+	 				<input type="radio" name="sexo" value="femenino">
+	 			</div>
+	 		 </div>
+	 		 <div>Nacionalidad:
+	 			<select name="nacionalidad" id="nac">
+	 				<option value="-">-</option>
+	 				<option value="ar">Argentino/a</option>
+	 				<option value="ex">Extranjero/a</option>
+	 			</select>
+	 		 </div>
+	 		  <label for="comentario"></label>Deje un comentario: <br>
+	 		   <textarea name="comentario" id="" cols="30" rows="10"></textarea> <br>
+	 		 <div>
+	 			Acepto términos y condiciones
+	 			<input type="checkbox" name="acepta" value="1">
+	 		 </div>
+	 		 <input type="submit" value="Enviar" class="boton"> <input type="reset" value="Borrar" class="boton">
+	 	</form>
+	  </fieldset> 
+	 </section>
+	 <footer class="footer">
+		 <ul class="redesSociales">
+			 <li><a href="https://twitter.com/" target="_blank"><img src="../assets/logos/twitter.svg" alt="twitterLogo" class="logos"></a></li>
+			 <li><a href="https://www.instagram.com/" target="_blank"><img src="../assets/logos/instagram.svg" alt="instagramLogo" class="logos"></a></li>
+			 <li><a href="https://es-la.facebook.com/" target="_blank"><img src="../assets/logos/facebook.svg" alt="facebookLogo" class="logos"></a></li>
+		 <li><a href="https://telegram.org/" target="_blank"><img src="../assets/logos/telegram.svg" alt="telegramLogo" class="logos"></a></li>
+		 </ul>
+		 
+	</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+	
+<script src="../js/wow.min.js"></script>
+<script>
+new WOW().init();
+</script>
+</body>
+</html>
