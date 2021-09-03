@@ -165,34 +165,35 @@ p {
 
 /* puntos de interes */
 
-.tabla{
-	color: black; 
-	margin: 20px;
-	padding: 15px;
-	text-align: center;
-	border: inset 8px skyblue;
-	width: 100%;
-	border-collapse: collapse;
-}
-td {
-	color: black;
-	background-color: lightblue;
-	padding: 5px;
-	font-size: 25px;
-}
-tr {
-	background-color: #e3f2fd;
-	padding: 5px;
-}
-
-
-.tableFlex {
+.puntos {
 	display: flex;
-	justify-content: center;
+	flex-direction: column;
+	text-align: center; 
 }
 
-th, td {
-	padding: 20px;
+.mapa {
+	width: 85%;
+	height: 500px;
+	margin: 10px;
+	padding: 10px;
+	border: lightblue solid 3px;
+}
+
+.puntos__div {
+	border: lightblue solid 5px;
+	border-radius: 5px;
+	margin: 10px;
+	padding: 10px;
+	background-color: #e3f2fd;
+}
+
+.puntos__div--titulos {
+	font-size: 25px;
+	background-color: lightblue;
+	border: black 2px solid;
+	border-radius: 3px;
+	margin: 5px;
+	padding: 5px;
 }
 
 /* cierre puntos de interes */
